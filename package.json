@@ -1,7 +1,7 @@
 {
   "name": "2017_1_ToTheDnoTeam",
   "version": "1.0.0",
-  "description": "## Team - [@JerryShe](https://github.com/JerryShe) - [@SK1995](https://github.com/SK1995)- [@3kybika](https://github.com/3kybika) - [@magomedgadjiev](https://github.com/magomedgadjiev),
+  "description": "## Team - [@JerryShe](https://github.com/JerryShe) - [@SK1995](https://github.com/SK1995)- [@3kybika](https://github.com/3kybika) - [@magomedgadjiev](https://github.com/magomedgadjiev)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
