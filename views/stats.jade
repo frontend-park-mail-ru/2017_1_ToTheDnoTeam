@@ -1,7 +1,10 @@
 extends base
 
+block css
+    link(rel="stylesheet", href="/stylesheets/stats.css")
+
 block content
     h1.text-center
-        font.stats_element Highest results
+        font.header Highest results
     for user, rate in stats
-        font.stats_element #{rate} : #{user}
+        div.stats_element #{rate} : #{user}

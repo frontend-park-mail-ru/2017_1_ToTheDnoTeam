@@ -1,10 +1,19 @@
 {
-  "name": "frontend-homework",
-  "version": "0.0.0",
-  "private": true,
+  "name": "2017_1_ToTheDnoTeam",
+  "version": "1.0.0",
+  "description": "## Team - [@JerryShe](https://github.com/JerryShe) - [@SK1995](https://github.com/SK1995)- [@3kybika](https://github.com/3kybika) - [@magomedgadjiev](https://github.com/magomedgadjiev)",
   "scripts": {
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-park-mail-ru/2017_1_ToTheDnoTeam.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontend-park-mail-ru/2017_1_ToTheDnoTeam/issues"
+  },
+  "homepage": "https://github.com/frontend-park-mail-ru/2017_1_ToTheDnoTeam#readme",
   "dependencies": {
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",

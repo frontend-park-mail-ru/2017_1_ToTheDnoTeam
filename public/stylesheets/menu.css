@@ -11,8 +11,13 @@
     -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
     -o-transition: background .2s ease-in-out, border .2s ease-in-out;
     transition: background .2s ease-in-out, border .2s ease-in-out;
-    margin: 50px auto!important;
+    margin: 50px auto !important;
+    min-height: 9vh;
+    max-height: 9vh;
+    line-height: 8vh;
+
 }
+
 
 .menu_item:hover {
     background-color: #b9edfa
@@ -24,4 +29,8 @@ font {
 
 a:link {
     text-decoration: none;
+}
+
+.container{
+    margin-top:15vh;
 }

@@ -1,9 +1,8 @@
 .stats_element {
-    position: relative;
-    width: 500px;
-    height: 50px;
+    width: 48vw;
+    height: 13vh;
     display: block;
-    margin: 30px auto 30px;
+    margin: 3vh auto 30px;
     color: white;
     background-color: #3CC;
     border: none;
@@ -11,21 +10,10 @@
     -moz-box-shadow: 0 5px 0 #2CADAD;
     box-shadow: 0 5px 0 #2CADAD;
     text-align: center;
-    font-size: large;
+    font-size: 8vh;
 }
 
-.stats_element:hover {
-    top: 2px;
-    -webkit-box-shadow: 0 3px 0 #2CADAD;
-    -moz-box-shadow: 0 3px 0 #2CADAD;
-    box-shadow: 0 3px 0 #2CADAD;
-}
-
-.stats_element:active {
-    top: 5px;
-    box-shadow: none;
-}
-
-.stats_element:focus {
-    outline: none;
+.header {
+    font-size: 8vmax;
+    color:cadetblue;
 }
