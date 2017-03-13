@@ -11,7 +11,7 @@ const stats = require('./../views/stats_view')
 const login = require('./../views/login_view')
 
 
-router.get('/*', function (req, res, next) {
+router.get('/', function (req, res, next) {
     index.render(req, res, next)
 });
 
