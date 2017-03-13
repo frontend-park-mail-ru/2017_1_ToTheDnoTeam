@@ -5,12 +5,13 @@ a {
 .login-container {
     position: relative;
     width: 300px;
-    margin: 20vh auto;
+    margin: auto;
     padding: 20px 40px 40px;
     text-align: center;
     background: #fff;
     border: 1px solid #ccc;
     font-size: 1.5em;
+    margin-top:10vh;
 }
 
 #output {

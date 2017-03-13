@@ -1,0 +1,46 @@
+extends base
+
+block includes
+    title Yet another awesome technopark game
+    link(rel="stylesheet", href="/stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/base.css")
+    script(src="/javascripts/runtime.js")
+    script(src="/javascripts/about_tpl.js")
+    script(src="/javascripts/game_tpl.js")
+    script(src="/javascripts/login_tpl.js")
+    script(src="/javascripts/menu_tpl.js")
+    script(src="/javascripts/registration_tpl.js")
+    script(src="/javascripts/stats_tpl.js")
+body
+    block content
+        div#about
+            script.
+                var html = window.about()
+                var div = document.getElementById("about");
+                div.innerHTML = html
+        div#game
+            script.
+                var html = window.game()
+                var div = document.getElementById("game");
+                div.innerHTML = html
+        div#login
+            script.
+                var html = window.login(#{alala})
+                var div = document.getElementById("login");
+                div.innerHTML = html
+        div#menu
+            script.
+                var html = window.menu()
+                var div = document.getElementById("menu");
+                div.innerHTML = html
+        div#registration
+            script.
+                var html = window.registration()
+                var div = document.getElementById("registration");
+                div.innerHTML = html
+        div#stats
+            script.
+                var html = window.stats()
+                var div = document.getElementById("stats");
+                div.innerHTML = html
+        script(src="/javascripts/user_router.js")

@@ -1,0 +1,18 @@
+extends base
+
+block includes
+    link(rel="stylesheet", href="/stylesheets/login.css")
+
+block content
+    div.container
+    div.login-container
+        div#output
+        div.avatar
+        div.form-box
+            input(name="user", type="text", placeholder="username")
+            input(type="password", placeholder="password")
+            button(class="inputButton ", type="button")
+                a(href="#menu")
+                    font#login_btn Login
+        a(class="inputButton",href="#registration")
+            font#register_btn Register
