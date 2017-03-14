@@ -1,0 +1,19 @@
+.stats_element {
+    width: 48vw;
+    height: 13vh;
+    display: block;
+    margin: 3vh auto 30px;
+    color: white;
+    background-color: #3CC;
+    border: none;
+    -webkit-box-shadow: 0 5px 0 #2CADAD;
+    -moz-box-shadow: 0 5px 0 #2CADAD;
+    box-shadow: 0 5px 0 #2CADAD;
+    text-align: center;
+    font-size: 8vh;
+}
+
+.header {
+    font-size: 8vmax;
+    color:cadetblue;
+}

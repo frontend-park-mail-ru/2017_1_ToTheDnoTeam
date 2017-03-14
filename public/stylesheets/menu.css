@@ -1,0 +1,32 @@
+.menu_item {
+    text-align: center;
+
+    font-size: 3em;
+
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    width: 500px !important;
+
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    margin: 50px auto !important;
+    min-height: 9vh;
+    max-height: 9vh;
+    line-height: 8vh;
+
+}
+
+
+.menu_item:hover {
+    background-color: #b9edfa
+}
+
+font {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
